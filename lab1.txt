@@ -1,0 +1,88 @@
+#include <cstdlib>
+#include <iostream>
+
+char nume[50];
+int varsta;
+
+printf("Introduceti numele: ");
+scanf("%s", %nume);
+printf("introduceti varsta: ");
+scanf("%d", &varsta);
+printf("Varsta d-voastra este de %d", varsta);
+
+
+//comment @danyandresh
+
+
+
+//************//
+
+
+//char nume[50];
+//printf("introduceti un text: ");
+//scanf("%s", &nume);
+//printf("Ati introdus %s \n", nume);
+
+    
+    
+     //3 nr reale si calc media lor
+
+//float a,b,c,m,ma;
+//cout<<"introduceti primul numar: ";
+//cin>>a;
+//cout<<"Introduceti al doilea numar: ";
+//cin>>b;
+//cout<<"Introduceti al treilea numar: ";
+//cin>>c;
+//m=a+b+c;
+//ma=m/3;
+//cout<<"Media aritmetica a numerelor "<<a<<", "<<b<<" si "<<c<<" este: "<<ma<<" ! ";
+
+
+// a doua metoda
+
+//float a,b;
+//printf("Introduceti valoarea a = ");
+//scanf("%f", &a);
+//printf("introduceti valoarea b = ");
+//scanf("%f", &b);
+//printf("1. Suma numerelor %.2f si %.2f este: %.3f \n",a,b,(a+b));
+//printf("2. Diferenta numerelor %.2f si %.2f este: %.6f \n",a,b,(a-b));
+//printf("3. Produsul numerelor %.2f si %.2f este: %.2f \n",a,b,(a*b));
+//printf("4. Impartirea numerelor %.2f si %.2f este: %.6f \n",a,b,(a/b));
+
+
+      
+
+     //*****************//
+     //int annast,varsta;
+//     char nume[50];
+//     
+//     cout<<"Introduceti numele si prenumele: ";
+//     cin.getline(nume,50);
+//     
+//     cout<<"Introduceti anul nasterii: ";
+//     cin>>annast;
+//     
+//     varsta=2015-annast;
+//     cout<<"Buna ziua, domnule "<<nume<<" in varsta de "<<varsta<<" ani"<<endl;
+     
+     
+     //*************// 
+       //int v,a;
+//        a=1996;
+//        v=2015-a;
+//        cout<<"Salut! Ma numesc Andres Costi, sunt nascut la data de 15 aug "<<a<<" si am varsta de "<<v<<"  ani. \n";
+    
+    //**********//
+//    float a,b;
+//    a=5;
+//    b=7;
+//    cout<<"a+b="<<a+b<<endl<<endl<<"a-b="<<a-b<<endl<<endl<<"a*b="<<a*b<<endl<<endl<<"a/b="<<a/b<<endl;
+//    cout<<endl;
+    //**********//
+    system("PAUSE");
+    return EXIT_SUCCESS;
+    
+}
+
